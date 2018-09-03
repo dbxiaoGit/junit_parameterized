@@ -232,6 +232,11 @@ public class JunitParameterizedTest {
 		System.out.println("headerData:"+headerData.toString());
 		System.out.println("testLineData:"+testLineData.toString());
 		System.out.println("=========================");
+		
+		/*	list转int数组
+		Integer[] targetVector = new Integer[testData.size()];
+		targetVector = (Integer[])testData.toArray(targetVector);
+		*/
 	}
 	
    
