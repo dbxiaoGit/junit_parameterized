@@ -17,6 +17,7 @@ import org.junit.Test;
 import org.junit.runner.RunWith;  
 import org.junit.runners.Parameterized;  
 import org.junit.runners.Parameterized.Parameters;  
+import static org.junit.Assert.*;
 
 /**
  *    a参数化测试的类必须有Parameterized测试运行器修饰
@@ -236,6 +237,7 @@ public class JunitParameterizedTest {
 		/*	list转int数组
 		Integer[] targetVector = new Integer[testData.size()];
 		targetVector = (Integer[])testData.toArray(targetVector);
+		assertEquals(expectedEvaluate+1,actualEvaluate);
 		*/
 	}
 	
